@@ -36,5 +36,4 @@ To run the tests locally, follow these steps:
 ## Dependencies
 
 - [Cypress](https://www.cypress.io/): JavaScript end-to-end testing framework.
-- [inputData.json](inputData.json): Dataset containing input strings for testing purposes.
 
