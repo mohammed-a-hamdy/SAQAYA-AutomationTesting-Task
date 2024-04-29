@@ -38,12 +38,3 @@ To run the tests locally, follow these steps:
 - [Cypress](https://www.cypress.io/): JavaScript end-to-end testing framework.
 - [inputData.json](inputData.json): Dataset containing input strings for testing purposes.
 
-## Contributors
-
-- [Your Name](https://github.com/yourusername)
-
-Feel free to contribute by submitting bug reports, feature requests, or pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
