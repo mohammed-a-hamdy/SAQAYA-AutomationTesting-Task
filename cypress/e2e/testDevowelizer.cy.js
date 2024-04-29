@@ -1,10 +1,12 @@
 
 describe('Devowelizer API Test', () => {
+  // Running the test 100 times to ensure reliability
   Cypress._.times(100, () => {
      /**
       * Bug : there is a flakiness in the API and around 20% of API calls result in Server Error
       */
       it.only(`should remove vowels from input string: attempt`, () => {
+        // Getting the test data from fixture file
         cy.fixture('inputData.json').then((inputData) => {
           // pick a random item from the inputData array to test the API with
           const inputString = Cypress._.sample(inputData.inputDataWithVowels);
